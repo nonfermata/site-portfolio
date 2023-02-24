@@ -1,0 +1,29 @@
+.title {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.linksWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+.linkWrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    filter: grayscale(1);
+    transition: all 0.15s ease;
+}
+
+.linkWrap:hover {
+    filter: grayscale(0);
+}
+
+.icon {
+    width: 30px;
+}

@@ -8,11 +8,11 @@ import Contacts from './contacts/contacts';
 const Main = () => {
     return (
         <Routes>
-            <Route index element={<Home />} />
+            <Route path='home' element={<Home />} />
             <Route path='portfolio' element={<Portfolio />} />
             <Route path='stack' element={<Stack />} />
             <Route path='contacts' element={<Contacts />} />
-            <Route path='*' element={<Navigate to='' />} />
+            <Route path='*' element={<Navigate to='home' />} />
         </Routes>
     );
 };

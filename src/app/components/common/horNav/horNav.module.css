@@ -1,0 +1,30 @@
+.horNavWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-top: 1px solid #ffffff33;
+    width: 100%;
+}
+
+.horNavbar {
+    display: flex;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.navItem {
+    opacity: 0.7;
+    width: fit-content;
+    transition: 0.15s all ease;
+}
+
+.navItem:hover {
+    opacity: 1;
+}
+
+.navItemActive {
+    opacity: 1;
+    width: fit-content;
+    position: relative;
+}

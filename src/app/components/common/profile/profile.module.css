@@ -1,0 +1,23 @@
+.photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.personWrap {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.name {
+    font-size: 1.4rem;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+.role {
+    font-size: 1.1rem;
+    font-weight: 300;
+}

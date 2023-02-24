@@ -1,12 +1,13 @@
 :root {
     --base-color: #222;
     --base-bg-color: #fffff5;
-    --sidebar-orange-color: hsla(185, 70%, 20%, 0.8);
-    --title-orange-color: hsl(25, 70%, 40%);
-    --main-bg-color: #fffffcea;
+    --sidebar-blue-color: hsla(185, 70%, 20%, 0.8);
+    --header-blue-color: hsl(185, 70%, 22%);
+    --brown-color: hsl(25, 70%, 40%);
+    --main-bg-color: #fffffcdd;
     --main-home-bg-color: #fffff533;
     --ex-light-grey-color: hsl(50, 10%, 90%);
-    --dark-grey-color: #265b63;
+    --dark-blue-color: #265b63;
 
     --base-blue-color: #00758c;
     --profile-bg-color: #22879a;
@@ -53,8 +54,6 @@ body,
 .container {
     width: 100%;
     height: 100%;
-    background-image: url('./app/assets/images/bg.jpg');
-    background-size: cover;
 }
 
 body {
@@ -67,9 +66,10 @@ body {
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url('./app/assets/images/bg.jpg');
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
 }
 
 textarea,
@@ -95,23 +95,23 @@ select {
     margin-left: 25%;
     width: 75%;
     background-color: var(--main-bg-color);
-    padding: 40px 25% 40px 60px;
+    padding: 40px 60px;
     min-height: 100%;
 }
 
 .mainTitle {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 300;
-    color: var(--dark-grey-color);
+    color: var(--dark-blue-color);
     margin-bottom: 50px;
 }
 
 .subTitle {
-    font-size: 2rem;
-    color: var(--title-orange-color);
+    font-size: 1.7rem;
+    color: var(--brown-color);
     font-weight: 400;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 a {
@@ -137,4 +137,12 @@ a {
 }
 .fw700 {
     font-weight: 700;
+}
+
+@media screen and (max-width: 1199px) {
+    .mainContainer {
+        margin-left: 0;
+        width: 100%;
+        padding: 40px;
+    }
 }

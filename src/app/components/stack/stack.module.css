@@ -1,10 +1,11 @@
 .mainRole {
     line-height: 1.6em;
+    white-space: pre-line;
 }
 
 .listItem {
     list-style: none;
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 }
 
 .listItem::before {

@@ -1,21 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import LangBar from '../common/langBar/langBar';
-import SocialLinks from '../common/socialLinks/socialLinks';
-import Profile from '../common/profile/profile';
-import { getLang } from '../../redux/langReducer';
-import { menuData } from '../../data/data';
-import classes from './sidebar.module.css';
+import SocialLinks from '../socialLinks/socialLinks';
+import { menuData } from '../../../data/data';
+import { getLang } from '../../../redux/langReducer';
+import classes from './horNav.module.css'
 
-const Sidebar = () => {
+const HorNav = () => {
     const lang = useSelector(getLang());
     const menu = menuData[lang];
     return (
-        <div className={classes.sidebarWrap}>
-            <LangBar />
-            <Profile/>
-            <nav className={classes.navbar}>
+        <div className={classes.horNavWrap}>
+            <nav className={classes.horNavbar}>
                 {Object.keys(menu).map((key) => (
                     <NavLink
                         className={(link) =>
@@ -23,15 +19,17 @@ const Sidebar = () => {
                                 ? classes.navItemActive
                                 : classes.navItem
                         }
-                        to={key}
+                        to={`../${key}`}
                     >
                         {menu[key]}
                     </NavLink>
                 ))}
             </nav>
-            <SocialLinks />
+            <div>
+                <SocialLinks />
+            </div>
         </div>
     );
 };
 
-export default Sidebar;
+export default HorNav;

@@ -7,33 +7,39 @@ import fbIcon from '../assets/images/icons/fb_icon.png';
 
 const socialLinks = [
     {
-        path: '//hh.ru/resume/d2e83168ff0b61caf60039ed1f347436363834',
-        name: 'HeadHunter',
-        icon: hhIcon
-    },
-    {
-        path: 'mailto:nonfermata@gmail.com',
-        name: 'E-mail',
+        url: 'mailto:nonfermata@gmail.com',
+        name: 'email',
+        value: 'E-mail',
         icon: emailIcon
     },
     {
-        path: '//t.me/febrecords',
-        name: 'Telegram',
-        icon: telegramIcon
+        url: '//hh.ru/resume/d2e83168ff0b61caf60039ed1f347436363834',
+        name: 'hh',
+        value: 'HeadHunter',
+        icon: hhIcon
     },
     {
-        path: '//www.linkedin.com/in/dmitrii-baulin-6535a8267',
-        name: 'LinkedIn',
+        url: '//www.linkedin.com/in/dmitrii-baulin-6535a8267',
+        name: 'linkedin',
+        value: 'LinkedIn',
         icon: linkedinIcon
     },
     {
-        path: '//github.com/nonfermata',
-        name: 'GitHub',
+        url: '//github.com/nonfermata',
+        name: 'github',
+        value: 'GitHub',
         icon: githubIcon
     },
     {
-        path: '//www.facebook.com/profile.php?id=100090296511415&mibextid=ZbWKwL',
-        name: 'Facebook',
+        url: '//t.me/febrecords',
+        name: 'telegram',
+        value: 'Telegram',
+        icon: telegramIcon
+    },
+    {
+        url: '//www.facebook.com/profile.php?id=100090296511415',
+        name: 'fb',
+        value: 'Facebook',
         icon: fbIcon
     }
 ];

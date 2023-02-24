@@ -1,17 +1,29 @@
 .mainContainerHome {
     margin-left: 25%;
     width: 75%;
-    /*background-color: var(--main-home-bg-color);*/
     padding: 40px 60px 150px 60px;
-    min-height: 100%;
     color: var(--base-bg-color);
     display: flex;
     flex-direction: column;
     gap: 40px;
+    position: relative;
+}
+
+.horNavWrap {
+    display: none;
+    color: var(--base-bg-color);
+    background-color: var(--sidebar-blue-color);
+}
+
+.langWrap {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    display: none;
 }
 
 .mainTitle {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 300;
     margin-bottom: 30px;
 }
@@ -23,8 +35,9 @@
 
 .descr {
     font-size: 1.3rem;
+    line-height: 1.6em;
     font-weight: 300;
-    white-space: pre-line
+    white-space: pre-line;
 }
 
 .buttonsWrap {
@@ -49,4 +62,18 @@
 
 .button:hover {
     opacity: 1;
+}
+
+@media screen and (max-width: 1199px) {
+    .mainContainerHome {
+        margin-left: 0;
+        width: 100%;
+        padding: 40px;
+    }
+    .horNavWrap {
+        display: block;
+    }
+    .langWrap {
+        display: block;
+    }
 }

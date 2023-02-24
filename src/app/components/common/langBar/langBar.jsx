@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { applyLang, getLang } from '../../redux/langReducer';
+import { applyLang, getLang } from '../../../redux/langReducer';
 import classes from './langBar.module.css';
 
 const LangBar = () => {

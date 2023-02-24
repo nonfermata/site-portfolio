@@ -4,10 +4,11 @@ import Main from './components/main';
 
 const App = () => {
     return (
-        <div className='container'>
+        <>
+            <div className='container'></div>
             <Sidebar />
             <Main />
-        </div>
+        </>
     );
 };
 
