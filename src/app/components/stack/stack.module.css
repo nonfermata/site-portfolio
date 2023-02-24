@@ -1,0 +1,23 @@
+.mainRole {
+    line-height: 1.6em;
+}
+
+.listItem {
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+.listItem::before {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.extraRoles .listItem::before {
+    content: '➤';
+    transform: scale(0.4, 0.8);
+}
+
+.skills .listItem::before {
+    content: '■';
+    transform: scale(0.4) rotate(45deg);
+}

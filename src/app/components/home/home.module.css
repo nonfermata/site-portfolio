@@ -1,0 +1,52 @@
+.mainContainerHome {
+    margin-left: 25%;
+    width: 75%;
+    /*background-color: var(--main-home-bg-color);*/
+    padding: 40px 60px 150px 60px;
+    min-height: 100%;
+    color: var(--base-bg-color);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.mainTitle {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.descr {
+    font-size: 1.3rem;
+    font-weight: 300;
+    white-space: pre-line
+}
+
+.buttonsWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.1rem;
+}
+
+.button {
+    user-select: none;
+    text-transform: uppercase;
+    opacity: 0.7;
+    padding: 8px;
+    background-color: #00000011;
+    width: fit-content;
+    text-align: center;
+    min-width: 150px;
+    border: 1px solid var(--base-bg-color);
+    transition: 0.15s all ease;
+}
+
+.button:hover {
+    opacity: 1;
+}

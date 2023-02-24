@@ -1,0 +1,58 @@
+.sidebarWrap {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+    width: 25%;
+    color: #fff;
+    text-align: left;
+    padding: 40px;
+    background-color: var(--sidebar-orange-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.personWrap {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.name {
+    font-size: 1.4rem;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+.role {
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.navItem {
+    opacity: 0.7;
+    width: fit-content;
+    transition: 0.15s all ease;
+}
+
+.navItem:hover {
+    opacity: 1;
+}

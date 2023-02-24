@@ -1,0 +1,26 @@
+
+.iconsWrap {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.icon {
+    width: 30px;
+    filter: grayscale(1);
+    transition: all 0.15s ease;
+}
+
+.icon:hover {
+    filter: grayscale(0);
+}
+
+.iconGithub {
+    width: 30px;
+    opacity: 0.7;
+    transition: all 0.15s ease;
+}
+
+.iconGithub:hover {
+    opacity: 1;
+}
