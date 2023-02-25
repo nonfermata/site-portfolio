@@ -131,7 +131,7 @@ export const portfolioData = {
         {
             title: 'Octagon',
             descr: 'the multi-page website of the "Octagon" architectural group',
-            url: '//octagon-ag.ru',
+            url: 'http://octagon-ag.ru',
             todo: 'design, layout, installation on CMS (MODX Revo), deployment, hosting, administration',
             techs: 'Native JS, jQuery',
             image: octagon

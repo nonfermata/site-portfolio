@@ -52,7 +52,7 @@
     text-transform: uppercase;
     opacity: 0.7;
     padding: 8px;
-    background-color: #00000033;
+    background-color: #00000011;
     width: fit-content;
     text-align: center;
     min-width: 150px;
@@ -78,17 +78,15 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .button {
-        opacity: 0.9;
-    }
-}
-
 @media screen and (max-width: 480px) {
     .langWrap {
         right: -5px;
     }
     .inset {
         font-size: 1.15rem;
+    }
+    .button {
+        opacity: 0.9;
+        background-color: #00000033;
     }
 }

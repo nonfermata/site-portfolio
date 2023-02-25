@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-.navbar {
+.menu {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -33,13 +33,13 @@
     opacity: 1;
 }
 
-.navItemActive {
+.menuItemActive {
     opacity: 1;
     width: fit-content;
     position: relative;
 }
 
-.navItemActive:after {
+.menuItemActive:after {
     content: '>';
     position: absolute;
     right: -20px;

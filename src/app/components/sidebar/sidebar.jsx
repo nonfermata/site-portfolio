@@ -15,14 +15,14 @@ const Sidebar = () => {
         <div className={classes.sidebarWrap}>
             <LangBar />
             <Profile/>
-            <nav className={classes.navbar}>
+            <nav className={classes.menu}>
                 {Object.keys(menu).map((key) => (
                     <NavLink
                         key={key}
                         className={(link) =>
                             link.isActive
-                                ? classes.navItemActive
-                                : classes.navItem
+                                ? classes.menuItemActive
+                                : classes.menuItem
                         }
                         to={key}
                     >
