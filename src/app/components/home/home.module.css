@@ -9,10 +9,9 @@
     position: relative;
 }
 
-.horNavWrap {
+.topBlock {
     display: none;
     color: var(--base-bg-color);
-    background-color: var(--sidebar-blue-color);
 }
 
 .langWrap {
@@ -70,7 +69,7 @@
         width: 100%;
         padding: 40px;
     }
-    .horNavWrap {
+    .topBlock {
         display: block;
     }
     .langWrap {

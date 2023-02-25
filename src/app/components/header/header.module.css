@@ -1,15 +1,12 @@
-.headerWrap {
+.header {
     display: none;
     color: #fff;
     padding: 40px 0 0;
     background-color: var(--sidebar-blue-color);
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 @media screen and (max-width: 1199px) {
-    .headerWrap {
-        display: flex;
+    .header {
+        display: block;
     }
 }

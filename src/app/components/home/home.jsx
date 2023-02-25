@@ -4,7 +4,7 @@ import { getLang } from '../../redux/langReducer';
 import { homeData } from '../../data/data';
 import { Link } from 'react-router-dom';
 import classes from './home.module.css';
-import HorNav from '../common/horNav/horNav';
+import AllLinksBlock from '../header/allLinksBlock/allLinksBlock';
 import LangBar from '../common/langBar/langBar';
 
 const Home = () => {
@@ -12,8 +12,8 @@ const Home = () => {
     const { hello, title, descr, btnStack, btnPortfolio } = homeData[lang];
     return (
         <>
-            <div className={classes.horNavWrap}>
-                <HorNav />
+            <div className={classes.topBlock}>
+                <AllLinksBlock />
             </div>
             <main className={classes.mainContainerHome}>
                 <div className={classes.langWrap}>

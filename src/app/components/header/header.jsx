@@ -1,16 +1,15 @@
 import React from 'react';
 import LangBar from '../common/langBar/langBar';
 import Profile from '../common/profile/profile';
-import HorNav from '../common/horNav/horNav';
+import AllLinksBlock from './allLinksBlock/allLinksBlock';
 import classes from './header.module.css';
 
 const Header = () => {
-
     return (
-        <div className={classes.headerWrap}>
+        <div className={classes.header}>
             <LangBar />
             <Profile />
-            <HorNav />
+            <AllLinksBlock />
         </div>
     );
 };

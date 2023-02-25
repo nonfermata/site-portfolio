@@ -1,0 +1,20 @@
+.mobileMenu {
+    display: flex;
+    gap: 15px;
+    text-transform: uppercase;
+}
+
+.menuItem {
+    opacity: 0.7;
+    width: fit-content;
+    transition: 0.15s all ease;
+}
+
+.menuItem:hover {
+    opacity: 1;
+}
+
+.menuItemActive {
+    opacity: 1;
+    width: fit-content;
+}
