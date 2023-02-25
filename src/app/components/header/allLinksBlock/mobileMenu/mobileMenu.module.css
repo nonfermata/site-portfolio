@@ -1,7 +1,18 @@
 .mobileMenu {
     display: flex;
     gap: 15px;
+    opacity: 1;
     text-transform: uppercase;
+    transition: .5s all ease;
+}
+
+.invisible {
+    opacity: 0;
+    transition: .3s all ease;
+}
+
+.hidden {
+    display: none;
 }
 
 .menuItem {
@@ -17,4 +28,11 @@
 .menuItemActive {
     opacity: 1;
     width: fit-content;
+}
+
+@media screen and (max-width: 360px) {
+    .mobileMenu {
+        gap:10px;
+        font-size: 1rem;
+    }
 }

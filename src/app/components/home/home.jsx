@@ -22,7 +22,7 @@ const Home = () => {
                 <div>
                     <h2 className={classes.mainTitle}>{hello}</h2>
                     <h3 className={classes.title}>{title}</h3>
-                    <p className={classes.descr}>{descr}</p>
+                    <p className={classes.inset}>{descr}</p>
                 </div>
                 <div className={classes.buttonsWrap}>
                     <Link to='../portfolio' className={classes.button}>

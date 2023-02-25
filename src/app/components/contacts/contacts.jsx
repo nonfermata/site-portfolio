@@ -19,6 +19,7 @@ const Contacts = () => {
                 <div className={classes.linksWrap}>
                     {socialLinks.map(({ icon, name, value, url }) => (
                         <a
+                            key={name}
                             href={url}
                             className={classes.linkWrap}
                             title={value}

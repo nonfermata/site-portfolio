@@ -15,10 +15,12 @@
 
 .extraRoles .listItem::before {
     content: '➤';
+    color: var(--brown-color);
     transform: scale(0.4, 0.8);
 }
 
 .skills .listItem::before {
     content: '■';
+    color: var(--brown-color);
     transform: scale(0.4) rotate(45deg);
 }

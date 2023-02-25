@@ -30,13 +30,17 @@ const Stack = () => {
                 <h2 className='subTitle'>{extraRolesTitle}</h2>
                 <ul className={classes.extraRoles}>
                     {extraRolesList.map((item) => (
-                        <li className={classes.listItem}>{item}</li>
+                        <li key={item} className={classes.listItem}>
+                            {item}
+                        </li>
                     ))}
                 </ul>
                 <h2 className='subTitle'>{skillsTitle}</h2>
                 <ul className={classes.skills}>
                     {skillsList.map((item) => (
-                        <li className={classes.listItem}>{item}</li>
+                        <li key={item} className={classes.listItem}>
+                            {item}
+                        </li>
                     ))}
                 </ul>
             </main>

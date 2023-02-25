@@ -6,7 +6,7 @@ const SocialLinks = () => {
     return (
         <div className={classes.iconsWrap}>
             {socialLinks.map(({ url, icon, value }) => (
-                <a href={url} target='_blank' rel='noreferrer'>
+                <a key={value} href={url} target='_blank' rel='noreferrer'>
                     <img
                         className={
                             value === 'GitHub'

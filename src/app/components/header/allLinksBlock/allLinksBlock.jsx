@@ -18,14 +18,14 @@ const AllLinksBlock = () => {
             <div className={topBlock}>
                 <Burger handleClick={handlePopup} />
                 <div className={tabMenuWrap}>
-                    <MobileMenu />
+                    <MobileMenu isVisible={true} />
                 </div>
                 <div>
                     <SocialLinks />
                 </div>
             </div>
             <div className={popupClass}>
-                {popupClass !== popupBlock && <MobileMenu />}
+                <MobileMenu isVisible={popupClass !== popupBlock} />
             </div>
         </div>
     );

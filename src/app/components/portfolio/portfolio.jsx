@@ -18,12 +18,18 @@ const Portfolio = () => {
             <main className='mainContainer'>
                 <h1 className='mainTitle'>{menuData[lang].portfolio}</h1>
                 {portfolio.map(({ title, descr, url, image, todo, techs }) => (
-                    <div className={classes.cardWrap}>
-                        <div className={classes.textWrap}>
-                            <div>
-                                <h1 className={classes.title}>{title}</h1>
-                                <div className={classes.descr}>{descr}</div>
-                            </div>
+                    <div className={classes.cardWrap} key={url}>
+                        <div className={classes.titleWrap}>
+                            <h1 className={classes.title}>{title}</h1>
+                            <div className={classes.inset}>{descr}</div>
+                        </div>
+                        <img
+                            className={classes.image}
+                            src={image}
+                            alt={title}
+                            title={title}
+                        />
+                        <div className={classes.descrWrap}>
                             <div>
                                 <div className={classes.subTitle}>
                                     {todoTitle}
@@ -48,12 +54,6 @@ const Portfolio = () => {
                                 {linkTitle} {link}
                             </a>
                         </div>
-                        <img
-                            className={classes.image}
-                            src={image}
-                            alt={title}
-                            title={title}
-                        />
                     </div>
                 ))}
             </main>

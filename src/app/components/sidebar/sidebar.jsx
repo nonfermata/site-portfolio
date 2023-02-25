@@ -18,6 +18,7 @@ const Sidebar = () => {
             <nav className={classes.navbar}>
                 {Object.keys(menu).map((key) => (
                     <NavLink
+                        key={key}
                         className={(link) =>
                             link.isActive
                                 ? classes.navItemActive
