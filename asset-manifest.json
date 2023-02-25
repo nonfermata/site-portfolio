@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/site-portfolio/static/css/main.0f681e21.css",
+    "main.js": "/site-portfolio/static/js/main.c75b59e6.js",
+    "static/media/bg.jpg": "/site-portfolio/static/media/bg.64468441113fb4aaca1d.jpg",
+    "static/media/octagon.png": "/site-portfolio/static/media/octagon.5a16825a94c46fb5af7d.png",
+    "static/media/meddenta.png": "/site-portfolio/static/media/meddenta.afe82cdfe1719ec6fb6b.png",
+    "static/media/popovmedia.png": "/site-portfolio/static/media/popovmedia.2d7d9daa98f1a69a38ac.png",
+    "static/media/bgv.png": "/site-portfolio/static/media/bgv.49857bf250492c17edb4.png",
+    "static/media/dima.png": "/site-portfolio/static/media/dima.8eacb6b7372878f651fc.png",
+    "static/media/booking.png": "/site-portfolio/static/media/booking.d3762a7f379d1668f946.png",
+    "static/media/hh_icon.png": "/site-portfolio/static/media/hh_icon.4440cee86c8039ee09fc.png",
+    "static/media/github_icon.png": "/site-portfolio/static/media/github_icon.40cf3b66f40a59374a87.png",
+    "static/media/email_icon.png": "/site-portfolio/static/media/email_icon.5b494ca4b558361a1c39.png",
+    "static/media/github_icon_invert.png": "/site-portfolio/static/media/github_icon_invert.30f9fc05c523b60a22e4.png",
+    "static/media/fb_icon.png": "/site-portfolio/static/media/fb_icon.3a1525b36d88d358f2f4.png",
+    "static/media/telegram_icon.png": "/site-portfolio/static/media/telegram_icon.55b35fc1c7cf7339024f.png",
+    "static/media/linkedin_icon.png": "/site-portfolio/static/media/linkedin_icon.ed7aff494ca6fd113f96.png",
+    "index.html": "/site-portfolio/index.html",
+    "main.0f681e21.css.map": "/site-portfolio/static/css/main.0f681e21.css.map",
+    "main.c75b59e6.js.map": "/site-portfolio/static/js/main.c75b59e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f681e21.css",
+    "static/js/main.c75b59e6.js"
+  ]
+}
