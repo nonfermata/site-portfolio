@@ -117,7 +117,7 @@ export const portfolioData = {
             descr: 'the website of the medical center in Klin, Moscow region',
             url: '//meddenta-klin.ru',
             todo: 'design, layout, adaptive layout, React development, deployment, hosting, administration',
-            techs: 'ReactJS, Redux',
+            techs: 'ReactJS, Redux, PHP',
             image: meddenta
         },
         {
@@ -125,7 +125,7 @@ export const portfolioData = {
             descr: 'the multi-page website of the "Belaya Gvardiya" music group',
             url: '//bgvmusic.ru',
             todo: 'design, layout, adaptive layout, content filling, installation on CMS (MODX Revo), deployment, hosting, administration',
-            techs: 'Native JS, jQuery',
+            techs: 'Native JS, jQuery, PHP',
             image: bgv
         },
         {
@@ -159,7 +159,7 @@ export const portfolioData = {
             descr: 'сайт медицинского центра в г. Клин, Московская область',
             url: '//meddenta-klin.ru',
             todo: 'дизайн, верстка, адаптивная верстка, разработка на React, деплой, хостинг, администрирование',
-            techs: 'ReactJS, Redux',
+            techs: 'ReactJS, Redux, PHP',
             image: meddenta
         },
         {
@@ -167,7 +167,7 @@ export const portfolioData = {
             descr: 'многостраничный сайт музыкальной группы "Белая Гвардия"',
             url: '//bgvmusic.ru',
             todo: 'дизайн, верстка, адаптивная верстка, наполнение контентом, установка на CMS (MODX Revo), деплой, хостинг, администрирование',
-            techs: 'Native JS, jQuery',
+            techs: 'Native JS, jQuery, PHP',
             image: bgv
         },
         {
